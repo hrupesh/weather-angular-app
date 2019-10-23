@@ -7,6 +7,33 @@
       "node"
     ]
   },
+  
+  body{
+			background-image:url("back.jpg");
+			font-family: san-serif;
+			background-size:1920px 1080px;
+		}
+		.wrapper{
+			padding : 100px;
+			height: 100%;
+			z-index: 0;
+		}
+		.main{
+			background-color: white;
+			padding: 50px;
+			height: auto;
+			opacity: 1;
+			margin-top:100px;
+			opacity: .7;
+		}
+		.main form{
+			margin-left: 150px;
+			margin-top: 100px;
+		}
+		#search{
+			font-size:50px;
+			margin-left: 100px;
+			
   "files": [
     "src/test.ts",
     "src/polyfills.ts"
